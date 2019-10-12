@@ -1,8 +1,36 @@
 <main class="text-center">
     <div class="container">
-        <div class="row">
+        <!-- Jumbotron -->
+        <div class="row justify-content-center">
             <div class="col">
-                <p>Welcome to Xinthose.com!</p>
+                <mdb-card style="background-image: url('https://mdbootstrap.com/img/Photos/Others/gradient1.jpg')">
+                <div class="text-white text-center py-5 px-4 my-5">
+                    <div>
+                        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Welcome to Faith
+                                Baptist Church!</strong></h2>
+                        <p class="mx-5 mb-5">We encourage, teach, and strengthen fellow Christians in a balanced,
+                            biblical approach to ministry telling the good news of Christ's salvation to those who do
+                            not know.
+                        </p>
+                    </div>
+                </div>
+                </mdb-card>
+            </div>
+        </div>
+        <!-- Carousel -->
+        <div class="row justify-content-center mt-3 mb-5">
+            <div class="col">
+                <mdb-carousel [animation]="'slide'">
+                    <mdb-carousel-item>
+                        <img class="d-block w-100" src="../../assets/church_interior_1.JPEG" alt="First slide">
+                    </mdb-carousel-item>
+                    <mdb-carousel-item>
+                        <img class="d-block w-100" src="../../assets/church_interior_2.JPEG" alt="Second slide">
+                    </mdb-carousel-item>
+                    <mdb-carousel-item>
+                        <img class="d-block w-100" src="../../assets/church_interior_3.JPEG" alt="Third slide">
+                    </mdb-carousel-item>
+                </mdb-carousel>
             </div>
         </div>
     </div>
