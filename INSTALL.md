@@ -8,7 +8,7 @@
 
 ## Linux
 
-- `cd /home/adam/Documents/svn/github/personal-website`
+- `cd /home/adam/Documents/svn/github/faithbaptistchurchleland`
 - `apt-get install nodejs npm build-essential`
 
 ## Angular 8
@@ -19,7 +19,7 @@
 
 ### Create App (client directory)
 
-- `ng new personal-website --style=scss --enableIvy=false --routing=true`
+- `ng new faithbaptistchurchleland --style=scss --enableIvy=false --routing=true`
   
 #### Components
 

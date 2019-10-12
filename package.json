@@ -1,9 +1,9 @@
 {
-  "name": "personal-website",
+  "name": "faithbaptistchurchleland",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xinthose/personal_website.git"
+    "url": "git+https://github.com/xinthose/faithbaptistchurchleland.git"
   },
   "scripts": {
     "ng": "ng",
