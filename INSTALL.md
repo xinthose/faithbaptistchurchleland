@@ -8,7 +8,7 @@
 
 ## Linux
 
-- `cd /home/adam/Documents/svn/github/faithbaptistchurchleland`
+- `cd /home/adam/Documents/workspace/git/faithbaptistchurchleland`
 - `apt-get install nodejs npm build-essential`
 
 ## Angular 8
@@ -23,7 +23,7 @@
   
 #### Components
 
-- `for i in home bible about page-not-found; do ng g c "${i}"; done`
+- `for i in home bible about page-not-found services; do ng g c "${i}"; done`
 
 #### Services
 

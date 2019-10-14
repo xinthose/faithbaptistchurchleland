@@ -26,6 +26,7 @@ import { HomeComponent } from './home/home.component';
 import { BibleComponent } from './bible/bible.component';
 import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
     declarations: [
@@ -34,6 +35,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
         BibleComponent,
         AboutComponent,
         PageNotFoundComponent,
+        ServicesComponent,
     ],
     imports: [
         // General
