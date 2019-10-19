@@ -66,4 +66,5 @@ typings/
 # System Files
 .DS_Store
 Thumbs.db
-keys.txt
+website_information.txt
+Ftp admin@faithbaptistchurchleland.org.xml
