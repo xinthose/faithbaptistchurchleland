@@ -1,5 +1,5 @@
 import { BrowserModule, HammerGestureConfig, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Injectable } from '@angular/core';
 
 // General
 import { AppComponent } from './app.component';
@@ -30,6 +30,7 @@ import { ServicesComponent } from './services/services.component';
 // HammerJS (MDBootstrap)
 // Source: https://mdbootstrap.com/docs/angular/advanced/mobile/
 declare var Hammer: any;
+@Injectable()
 export class MyHammerConfig extends HammerGestureConfig {
     overrides = <any>{
         'pan': { direction: Hammer.DIRECTION_All },
