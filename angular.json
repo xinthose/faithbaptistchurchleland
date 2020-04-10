@@ -144,5 +144,8 @@
       }
     }
   },
-  "defaultProject": "faithbaptistchurchleland"
+  "defaultProject": "faithbaptistchurchleland",
+  "cli": {
+    "analytics": "827d1db9-6801-4b15-835a-378b4c979e54"
+  }
 }

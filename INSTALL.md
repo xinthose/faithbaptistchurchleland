@@ -15,7 +15,7 @@
 
 ### Installation
 
-- `npm i -g @angular/cli @angular/core @angular/forms @angular/forms terser typescript`
+- `npm i -g @angular/cli @angular/core @angular/forms @angular/forms terser typescript @angular/localize`
 
 ### Create App (client directory)
 
