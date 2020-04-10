@@ -33,6 +33,7 @@
 
 - `npm i -g @angular/cli`
 - `npm i rxjs rxjs-compat @angular/http`
+- `npm i @agm/core`
 
 ## Kendo-UI (Progress)
 
@@ -53,22 +54,18 @@
 
 ## Commands -------------------------------------------------------------------------------------------------------------------------
 
-## Angular Commands (ng)
+### Angular Commands (ng)
 
 - `ng --version`    // show angular version
 - `ng update --all --force` // update all angular packages (ignore peer dependency errors)
 - `ng build --prod --aot`   // build for production
 - `ng serve --host 0.0.0.0` // allow outside PC's access to the app
 
-## Kendo Node.js commands
-
-- `ncu -u -f /^@progress/`  // check progress widget versions
-
-## Node Commands
+### Node Commands
 
 - `node -v` // show node version
 
-## NPM Commands (Node Package Manager)
+### NPM Commands (Node Package Manager)
 
 - `npm -v`  // show npm version
 - `npm i -g npm`  // update npm version
@@ -83,44 +80,16 @@
 - `npm-install-peers`
 - `npm i @angular/cli@latest`  // install latest version of angular cli
 
-## Typescript Commands
+### Typescript Commands
 
 - `tsc -v`  // show typescript version
 
-## Github
+### Github
 
 - `git config --global user.email "your github login email address"`  // set email address
 - `git config --global user.email`  // check email address
 
-## pm2
-
-- Github: <https://github.com/Unitech/pm2>
-- `npm i pm2 pm2-logrotate -g`
-- `pm2 ls`  // list all running applications
-- `pm2 stop EDS4WSserver`
-- `pm2 restart EDS4WSserver`
-- `pm2 delete EDS4WSserver`
-- `pm2 describe EDS4WSserver`
-- `pm2 monit`   // monitor logs, custom metrics, & application information
-
-## link pm2 to <https://app.pm2.io/#/bucket/5beae26a3ca4a1db69a9056b/overview/servers>
-
-- `pm2 link 90n1bqb6mdqm111 mvp52pu0qi8k4v1 EDS`
-
-### Update pm2
-
-- `npm i pm2@latest -g`
-- `pm2 update`
-
-## Other
-
-- `http-server`
-
-## Notes
-
-- `[style.height.%]="100"`  // full height grid (as long as content)
-
-## Troubleshooting
+### Troubleshooting
 
 - `ERROR in The Angular Compiler requires TypeScript >=3.4.0 and <3.5.0 but 3.5.1 was found instead.`
   - `npm i typescript@">=3.4.0 <3.5.0"`
