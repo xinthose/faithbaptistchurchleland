@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 (9/26/2020)
+
+- **Major:** update to Angular 10 from 9
+- host website on Amazon Web Services (includes domain transfer)
+
 ## 1.0.1 (4/9/2020)
 
 - update packages
