@@ -50,8 +50,8 @@
 
 ## Hosting Website with Amazon Web Services
 
-- copy `package.json` into `dist/personal-website` before zipping files
-- when zipping files for update, select all files in `dist/personal-website` and ZIP them, do not zip parent folder `dist/personal-website`
+- copy `package.json` into `dist/faithbaptistchurchleland` before zipping files
+- when zipping files for update, select all files in `dist/faithbaptistchurchleland` and ZIP them, do not zip parent folder `dist/faithbaptistchurchleland`
 
 ## Commands -------------------------------------------------------------------------------------------------------------------------
 
