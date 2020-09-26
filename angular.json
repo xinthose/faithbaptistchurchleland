@@ -26,7 +26,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/web.config"
+              "src/server.js",
+              "src/.ebextensions"
             ],
             "deployUrl": "/",
             "baseHref": "/",
